@@ -13,10 +13,6 @@
             <h1>Hi! I'm Jerlyn Mae Magante</h1>
             <button onclick="showNext()">Click Here</button>
         </div>
-        <div class="theme-toggle" id="theme-toggle">
-          <button onclick="toggleTheme()"> ☾ </button>
-      </div>
-
         <script src="index.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         
@@ -29,23 +25,6 @@
     scale: 0.85,    
     reset: true      
   });
-
-
-  function toggleTheme() {
-    const body = document.body;
-    const themeButton = document.getElementById('theme-toggle').querySelector('button');
-   
-    body.classList.toggle('dark-mode');
-   
-    if (body.classList.contains('dark-mode')) {
-        themeButton.textContent = "𖤓"; 
-    } else {
-        themeButton.textContent = "☾"; 
-    }
-}
-
-document.body.classList.contains('dark-mode') ? document.body.classList.add('dark-mode') : null;
-
 </script>
     </body>
 </html>
