@@ -27,42 +27,6 @@
     --smaller-font-size: .875rem;
   }
 }
-
-.theme-toggle {
-  position: absolute;
-  right: 20px;
-  top: 15px;
-}
-
-.theme-toggle button {
-  background: linear-gradient(to right, #808080, #ffffff);
-  border: 1px solid black;
-  border-radius: 20px;
-  width: 60px;
-  height: 30px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-/* Dark Mode Styles */
-.dark-mode {
-  background-color: #121212;
-  color: white;
-}
-
-.dark-mode .nav__link {
-  color: #ddd;
-}
-
-.dark-mode .nav__link:hover {
-  color: white;
-}
-
-.dark-mode .footer {
-  background-color: #1e1e1e;
-}
-
-
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
